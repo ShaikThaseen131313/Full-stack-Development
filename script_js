@@ -1,0 +1,37 @@
+function showHome() {
+    document.getElementById("content").innerHTML = '
+    <h2>Home</h2>
+    <img src="c:\Users\322 LAB\Downloads\playschool.jpg" class="section-img">
+    <p>Welcome to our website. This is the home section.</p>
+    ' ;
+}
+
+function showAbout() {
+    document.getElementById("content").innerHTML = '
+    <h2>About Us</h2>
+    <img src="c:\Users\322 LAB\Downloads\playschool.jpg" class="section-img">
+    <p>We are a team learning web development using HTML, CSS, and JAVASCRIPT.</p>
+    ' ;
+}
+
+function showService() {
+  document.getElementById("content").innerHTML = '
+     <h2>Our Services</h2>
+     <img src="c:\Users\322 LAB\Downloads\playschool.jpg" class="section-img">
+     <ul>
+        <li>Web Design</li>
+        <li>Forntend Development</li>
+        <li>JavaScript Projects</li>
+     </ul>
+     ' ;
+    }
+
+    function showContact() {
+        document.getElementById("content").innerHTML = '
+        <h2>contact Us</h2>
+        <img src="c:\Users\322 LAB\Downloads\playschool.jpg" class="section-img">
+        <p>Email: example@email.com</p>
+        <p>Phone: +91 9*********</p>
+        ' ;
+    }
+    
